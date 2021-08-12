@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Stopwatch</title>
+</head>
+
+<body>
+    <h1>Stopwatch 2</h1>
+    <div class="container">
+        <div id="display">
+            00:00:00
+        </div>
+
+        <div class="buttons">
+            <button id="startStop" onclick="startStop()">Start</button> <button id="reset" onclick="reset1()">Reset
+                Time</button>
+        </div>
+        <br><br>
+        <div class="colorButtons">
+            <button id="green" onclick="green()">Green</button> <button id="yellow" onclick="yellow()">Yellow</button>
+            <button id="red" onclick="red()">Red</button>
+        </div>
+        <div class="timesButtons">
+            <button id="reset" onclick="reset2()">Reset All</button>
+        </div>
+
+    </div>
+    <br>
+    <section class="window">
+        <div class="time_view">
+            <div id="time_history">
+                00:00:00
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <div class="footer">
+        <p>by Kyle Gordon</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
