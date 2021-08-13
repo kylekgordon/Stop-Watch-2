@@ -71,10 +71,11 @@ body {
   position: center;
   display: flex;
   border-radius: 5px;
-  height: auto;
+  height: 300px;
   width: 100px;
   font-size: 20px;
   align-items: 50%;
+  overflow: scroll;
 }
 
 .time_view {
