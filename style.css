@@ -74,7 +74,7 @@ body {
   width: 100px;
   font-size: 20px;
   align-items: 50%;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .time_view {
